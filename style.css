@@ -1,0 +1,485 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.preheader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 36px;
+}
+
+.preheader .imga {
+    margin-left: 20px;
+}
+
+.preheader .tags {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    margin: 20px;
+    
+
+   
+}
+
+.preheader .tags a {
+    color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+header .text {
+   color: black;
+}
+
+header .text a {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px ;
+    font-weight: bolder;
+}
+
+header .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 8px;
+}
+
+header .search input {
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 16
+    px;
+
+}
+
+header .search svg {
+    width: 30px;
+    height: 30px;
+}
+
+header .icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.inv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.introvid {
+    width: 80%;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.introvid video {
+    width: 80%;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+.disco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    height: 68px;
+    background-color: whitesmoke;
+    margin-top: 4px;
+    
+}
+
+.disco h5 {
+    margin-top: -20px;
+    text-decoration-line: underline;
+}
+
+.centertext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+}
+
+.centertext h2 {
+    font-size: 60px;
+    margin-top: -10px;
+    
+}
+.centertext h4 {
+   
+    margin-top: -46px;
+    
+}
+.centertext h6 {
+   
+    margin-top: -46px;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(151, 151, 151);
+    width: 60%;
+    
+}
+
+.centertext input {
+     
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 2px 2px 2px 2px;
+    font-family:  sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.newarrival{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    margin-top: 100px;
+    
+}
+
+.newarrival .just {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.newarrival .just h2 {
+    margin-left: 20px;
+}
+
+.newarrival .button  h2 {
+    margin-right: 20px;
+}
+
+.newarrival .cards {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+   
+}
+
+.newarrival .cards .card {
+    margin-left: 10px;
+}
+
+.newarrival .cards .card .text p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.newarrival .cards .card .text h4  {
+    margin-top: -20px;
+    color: rgb(110, 110, 110);
+    font-family: "Poppins", sans-serif;
+}
+
+.newarrival .cards .card .text h3 {
+    margin-top: -18px;
+    font-size: 20px ;
+    font-family: "Poppins", sans-serif;
+}
+
+.ronol {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.ronol img {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.ronol h2 {
+    align-self: self-start;
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    font-size: 32px;
+    
+}
+
+.miss {
+    width: 100%;
+    margin-top: 80px;
+   
+    
+    
+}
+
+.miss h2 {
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    font-size: 32px;
+    
+    
+    
+}
+
+
+.miss .mime {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.miss .mime .cards {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miss .cards .card {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.miss .cards .card img {
+    width: 100%;
+
+}
+
+.miss .cards .card .text {
+    margin-top: -120px;
+    margin-left: 60px;
+}
+
+
+.miss .cards .card .text p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.miss .cards .card .text button {
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.newarrivals{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+.newarrivals .just {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.newarrivals .just h2 {
+    margin-left: 20px;
+}
+
+.newarrivals .button  h2 {
+    margin-right: 20px;
+}
+
+.newarrivals .cards {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+   
+}
+
+.newarrivals .cards .card {
+    margin-left: 10px;
+}
+
+.newarrivals .cards .card img {
+    width: 400px;
+}
+
+.newarrivals .cards .card .text p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.newarrivals .cards .card .text h4  {
+    margin-top: -20px;
+    color: rgb(110, 110, 110);
+    font-family: "Poppins", sans-serif;
+}
+
+.newarrivals .cards .card .text h3 {
+    margin-top: -18px;
+    font-size: 16px ;
+    font-family: "Poppins", sans-serif;
+    text-decoration-line: underline;
+}
+
+.misss {
+    width: 100%;
+    margin-top: 80px;
+   
+    
+    
+}
+
+.misss h2 {
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    font-size: 32px;
+    
+    
+    
+}
+
+
+.misss .mime {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    overflow: auto;
+   
+}
+
+.misss .mime .cards {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.misss .cards .card {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.misss .cards .card img {
+    width: 500px;
+
+}
+
+.misss .cards .card .text {
+    margin-top: -110px;
+    margin-left: 40px;
+   padding-bottom: 18px;
+}
+
+
+.misss .cards .card .text p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.misss .cards .card .text button {
+    border: none;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.wfooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 60px;
+    background-color: whitesmoke;
+    height: 200px;
+    overflow: hidden;
+}
+
+.wfooter:hover {
+    height: 100%;
+
+}
+
+.wfooter .wfoot {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+.bfooter {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+  
+}
+
+.bfooter .bfoot {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.bfooter .bfoot .text {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.bfooter .bfoot .text .tex {
+    margin-left: 20px;
+}
+
+
+
+
